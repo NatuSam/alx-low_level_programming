@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 /**
  * _islower - return 1 or 0 
  *
