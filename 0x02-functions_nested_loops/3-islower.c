@@ -1,14 +1,14 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _islower - return 1 or 0 
+ * _islower - return 1 or 0
  *
  * Return: Always 0 (Success)
  */
 int _islower(int c)
 {
 int l = islower(c);
-if(l > 0)
+if (l > 0)
 {
 return (1);
 }
