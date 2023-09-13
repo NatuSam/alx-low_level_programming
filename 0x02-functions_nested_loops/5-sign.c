@@ -2,7 +2,7 @@
 #include <ctype.h>
 /**
  * print_sign - return 1 or 0
- * @c: variable to determine if input is lowercase
+ * @n: variable to determine if input is lowercase
  * Return: Always 0 (Success)
  */
 int print_sign(int n)
