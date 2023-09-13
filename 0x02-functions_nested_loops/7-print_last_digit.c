@@ -7,6 +7,8 @@
  */
 int print_last_digit(int n)
 {
-n = abs(n) % 10;
-return (n);
+int x, y;
+x = abs(n);
+y = x % 10;
+return (y);
 }
