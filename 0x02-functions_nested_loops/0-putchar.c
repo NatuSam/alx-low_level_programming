@@ -7,11 +7,14 @@
  */
 int main(void)
 {
-int n;
-char put[8] = ('_', 'p', 'u', 't', 'c', 'h','a', 'r');
-for (n = 0; n < 8; n++)
-{
-_putchar(put[n]);
-}
+_putchar('-');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 return (0);
 }
