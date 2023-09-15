@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * more_numbers - return a-z x10
- *
- * Return: Always 0 (Success)
+ * more_numbers - return 0-14 x10
  */
 void more_numbers(void)
 {
@@ -15,7 +13,6 @@ for (n = 0; n <= 14; n++)
 if (n > 9)
 _putchar((n / 10) + '0');
 _putchar((n % 10) + '0');
-}
 }
 _putchar('\n');
 }
