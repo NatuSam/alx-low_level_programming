@@ -11,14 +11,14 @@ if (n <= 0)
 _putchar('\n');
 else
 {
-for  (x = 1; x <= n; x++)
+for (x = 1; x <= n; x++)
 {
 for (i = 1; i <= x; i++)
 {
 _putchar(' ');
 }
 _putchar('\\');
-_putchar('\n';
+_putchar('\n');
 }
 }
 }
