@@ -1,8 +1,8 @@
 #include "main.h"
 #include <ctype>
 
-/*
- *_isupper - return 1 if c is uppercase
+/**
+ * _issupper - return 1 if c is uppercase
  *@c: is parameter
  * Return: Always 0 (Success)
  */
