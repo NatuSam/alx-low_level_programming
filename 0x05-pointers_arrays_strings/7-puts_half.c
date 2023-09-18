@@ -13,7 +13,7 @@ i++;
 if (i % 2 == 0)
 n = i / 2;
 else
-  n = ((i - 1) / 2) + 1;
+n = ((i - 1) / 2) + 1;
 while (str[n] != '\0')
 {
 _putchar(str[n]);
