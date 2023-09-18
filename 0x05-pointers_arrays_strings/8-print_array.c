@@ -12,7 +12,7 @@ i = 0;
 while (i < n)
 {
 if (i != (n - 1))
-printf("%i,", a[i]);
+printf("%i, ", a[i]);
 else
 printf("%i", a[i]);
 i++;
