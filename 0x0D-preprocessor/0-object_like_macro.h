@@ -3,4 +3,4 @@
 
 #define SIZE 1024
 
-#endif OLM_H
+#endif /*OLM_H*/
