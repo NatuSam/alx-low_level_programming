@@ -1,5 +1,6 @@
 /**
  * print_name - a function that prints a name
+ * f - a func
  * @name: name of the person
  * @f: fuc ptr
  * Return: Nothing.
