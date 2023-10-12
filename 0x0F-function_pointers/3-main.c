@@ -19,11 +19,6 @@ if (argc != 4)
 printf("Error\n");
 exit(98);
 }
-else if (*op == '/' && num2 == 0)
-{
-printf("Error\n");
-return (100);
-}
 if (get_op_func(argv[2]))
 printf("%d\n", get_op_func(argv[2])(num1, num2));
 else
