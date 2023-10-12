@@ -13,7 +13,12 @@ unsigned int i;
 va_start(args, n);
 for (i = 0; i < n; i++)
 {
-printf("%s", va_arg(args, const char*));
+const char *ch;
+ch = va_arg(args, const char*);
+if (ch != NULL)
+printf("%s", ch);
+else
+printf("(nil)");
 if (separator != NULL && (i + 1) != n)
 printf("%s", separator);
 }
