@@ -10,7 +10,9 @@ void print_all(const char * const format, ...)
 	va_list valist;
 	unsigned int i = 0, middle = 0;
 	char *arg;
+
 	va_start(valist, format);
+
 	while (format && format[i])
 	{
 		if (middle)
