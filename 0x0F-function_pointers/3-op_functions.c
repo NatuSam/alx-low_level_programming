@@ -8,7 +8,7 @@
  */
 int op_add(int a, int b)
 {
-return (a + b);
+return ((a) + (b));
 }
 /**
  * op_sub - -
@@ -18,7 +18,7 @@ return (a + b);
  */
 int op_sub(int a, int b)
 {
-return (a - b);
+return ((a) - (b));
 }
 /**
  * op_mul - *
@@ -28,7 +28,7 @@ return (a - b);
  */
 int op_mul(int a, int b)
 {
-return (a * b);
+return ((a) * (b));
 }
 /**
  * op_div - /
@@ -43,7 +43,8 @@ if (!b)
 		printf("Error\n");
 		exit(100);
 	}
-	return ((a) / (b));
+else
+return ((a) / (b));
 }
 /**
  * op_mod - %
@@ -54,7 +55,7 @@ if (!b)
 int op_mod(int a, int b)
 {
 if (b)
-		return ((a) % (b));
-	printf("Error\n");
-	exit(100);
+return ((a) % (b));
+printf("Error\n");
+exit(100);
 }
