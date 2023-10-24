@@ -17,7 +17,7 @@ if (!new)
 return (NULL);
 new->n = n;
 new->next = NULL;
-if (*head == NULL)
+if (head && !*head)
 {
 *head = new;
 return (new);
