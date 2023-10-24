@@ -7,11 +7,15 @@
  **/
 int pop_listint(listint_t **head)
 {
-  listint_t *delete;
-  int x;
-  delete = *head;
-  x = delete->n;
-  *head = (**head).next;
-  free(delete);
-  return (x);
+listint_t *delete;
+int x;
+if (head && *head)
+{
+delete = *head;
+x = delete->n;
+*head = (**head).next;
+free(delete);
+return (x);
+}
+retirn (0);
 }
