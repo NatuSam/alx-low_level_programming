@@ -14,7 +14,7 @@ nxt = head;
 for (i = 0; i <= index; i++)
 {
 if (i == index)
-return (new);
+return (nxt);
 nxt = nxt->next;
 }
 return (NULL);
