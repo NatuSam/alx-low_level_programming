@@ -17,5 +17,5 @@ x = delete->n;
 free(delete);
 return (x);
 }
-retirn (0);
+return (0);
 }
