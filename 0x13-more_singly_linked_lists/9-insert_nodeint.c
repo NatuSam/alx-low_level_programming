@@ -30,7 +30,7 @@ if (i == (idx - 1))
 new = malloc(sizeof(listint_t));
 if (!new)
 return (NULL);
-(*next).n = n;
+(*new).n = n;
 (*new).next = (*nxt).next;
 (*nxt).next = new;
 return (new);
