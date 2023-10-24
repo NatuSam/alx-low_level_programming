@@ -10,7 +10,7 @@ listint_t *hold;
 while (head && *head)
 {
 hold = *head;
-*head = (**head).next
+ *head = (**head).next;
 free(hold);
 }
 }
